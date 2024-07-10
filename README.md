@@ -1,40 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PokeNext
 
-## Getting Started
+PokeNext é um site de estudo sobre Next.js, focado em ensinar as melhores práticas e funcionalidades desta poderosa ferramenta de desenvolvimento web. Este projeto explora a criação de APIs e como elas podem ser integradas com páginas React.
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sobre o Projeto
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+PokeNext foi criado com o intuito de servir como uma plataforma de aprendizado para desenvolvedores que desejam entender e dominar o Next.js. Neste projeto, os arquivos neste diretório são tratados como rotas de API em vez de páginas React, demonstrando uma das capacidades únicas do Next.js.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Tecnologias Utilizadas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- [API REST](https://restfulapi.net/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalação
 
-## Learn More
+Para rodar este projeto localmente, siga as instruções abaixo:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/pokenext.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd pokenext
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Execute o projeto:
+    ```bash
+    npm run dev
+    ```
+5. Abra seu navegador e vá para `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Uso
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para utilizar este projeto, você pode explorar as diferentes rotas de API criadas. Cada rota demonstra um aspecto específico do Next.js e como integrar APIs com páginas React. Consulte a documentação interna do código para mais detalhes sobre cada rota.
 
-## Deploy on Vercel
+## Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Se você deseja contribuir com o PokeNext, siga as instruções abaixo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+4. Faça push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
