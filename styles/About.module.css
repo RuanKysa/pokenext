@@ -1,76 +1,86 @@
 .fundo {
     background-image: linear-gradient(#333, #382c2c, #E33D33);
-}
-
-.about {
+  }
+  
+  .about {
     text-align: center;
     padding: 3em;
-
-}
-
-.about h1 {
+  }
+  
+  .about h1 {
     font-size: 2em;
     margin-bottom: 1em;
     color: #fff;
-}
-
-.about p {
+  }
+  
+  .about p {
     max-width: 1000px;
     margin: 0 auto 1.5em;
     line-height: 1.5;
     color: #fff;
     text-transform: uppercase;
-}
-
-.devs {
+    padding: 0 1em;
+  }
+  
+  .devs {
     display: flex;
     justify-content: space-between;
     padding: 2em;
     text-align: center;
     max-width: 1300px;
     margin: 0 auto;
-}
-
-.ruan {
+    flex-wrap: wrap;
+  }
+  
+  .ruan, .pq {
     padding: 2em 1em;
     margin-bottom: 2em;
-    width: 33%;
+    width: 30%;
     border-radius: 1em;
     border: 2px solid #e33333;
-    box-shadow: 5px 5px 12px rgb(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
     background-color: #333333;
     color: #fff;
-}
-
-.ruan li {
+    flex-grow: 1;
+    margin: 1em;
+    min-width: 280px; /* Para manter um tamanho mínimo em telas muito pequenas */
+  }
+  
+  .ruan li, .pq li {
     list-style: none;
     text-transform: uppercase;
     padding: 0.4em;
-}
-
-.foto {
+  }
+  
+  .foto {
     border-radius: 5em;
-
-}
-
-.pq {
-    padding: 2em 1em;
-    margin-bottom: 2em;
-    width: 33%;
-    border-radius: 1em;
-    border: 2px solid #e33333;
-    box-shadow: 5px 5px 12px rgb(0, 0, 0, 0.5);
-    background-color: #333333;
-    color: #fff;
-
-}
-
-.pq li {
-    list-style: none;
-    text-transform: uppercase;
-    padding: 0.5em;
-}
-
-.pq ul {
-    padding: 0.5em;
-}
+  }
+  
+  /* Media queries para responsividade */
+  @media (max-width: 1024px) {
+    .ruan, .pq {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ruan, .pq {
+      width: 70%;
+    }
+    .about {
+      padding: 2em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ruan, .pq {
+      width: 90%;
+    }
+    .about h1 {
+      font-size: 1.5em;
+    }
+    .about p {
+      font-size: 1em;
+    }
+  }
+  
