@@ -1,16 +1,76 @@
-.about{
+.fundo {
+    background-image: linear-gradient(#333, #382c2c, #E33D33);
+}
+
+.about {
     text-align: center;
     padding: 3em;
 
 }
 
-.about h1{
+.about h1 {
     font-size: 2em;
     margin-bottom: 1em;
+    color: #fff;
 }
 
-.about p{
-    max-width: 800px;
+.about p {
+    max-width: 1000px;
     margin: 0 auto 1.5em;
-    line-height: 1.2;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.devs {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.ruan {
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 33%;
+    border-radius: 1em;
+    border: 2px solid #e33333;
+    box-shadow: 5px 5px 12px rgb(0, 0, 0, 0.5);
+    background-color: #333333;
+    color: #fff;
+}
+
+.ruan li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0.4em;
+}
+
+.foto {
+    border-radius: 5em;
+
+}
+
+.pq {
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 33%;
+    border-radius: 1em;
+    border: 2px solid #e33333;
+    box-shadow: 5px 5px 12px rgb(0, 0, 0, 0.5);
+    background-color: #333333;
+    color: #fff;
+
+}
+
+.pq li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0.5em;
+}
+
+.pq ul {
+    padding: 0.5em;
 }

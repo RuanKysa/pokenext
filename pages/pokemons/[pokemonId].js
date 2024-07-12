@@ -37,6 +37,8 @@ export const getStaticProps = async (context) => {
 
 export default function Pokemon({ pokemon }) {
     return (
+        
+        <div className={styles.container}>
             <div className={styles.pokemon_container}>
                 <h1 className={styles.pokemon_title}>{pokemon.name}</h1>
                 <Image
@@ -68,5 +70,7 @@ export default function Pokemon({ pokemon }) {
                     </div>
                 </div>
             </div>
+        </div>
+        
     )
 }
